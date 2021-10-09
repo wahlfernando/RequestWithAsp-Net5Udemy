@@ -90,7 +90,7 @@ namespace RestWithAsp_Net5Udemy.Controllers
 
                 double valorRadicando = Convert.ToSingle(Math.Sqrt(ConvertToDouble(firstNumber)));
                 
-                return Ok(valorRadicando);
+                return Ok(valorRadicando);   
             }
 
             return BadRequest("Deu ruim");
