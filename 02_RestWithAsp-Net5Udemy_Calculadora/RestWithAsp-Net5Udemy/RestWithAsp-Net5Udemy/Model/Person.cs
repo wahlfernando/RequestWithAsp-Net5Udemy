@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 namespace RestWithAsp_Net5Udemy.Model
 {
     public class Person
-    {
+    { 
         public long Id { get; set; }
-        public long FirtName { get; set; }
-        public long LasName { get; set; }
-        public long Adress { get; set; }
-        public long Gender { get; set; }
+        public String FirtName { get; set; }
+        public String LasName { get; set; }
+        public String Adress { get; set; }
+        public String Gender { get; set; }
     }
 }
